@@ -174,20 +174,20 @@ else{
     function productt(stck){
         // alert("hi")
     const node = document.createElement("div");
-    node.classList.add("light", "product");
-    node.id = `cardz${stck.sr}`;
+    node.classList.add("light", "card");
+    node.id = `card${stck.sr}`;
 
 
     const img = document.createElement("div");
-    img.classList.add("col1", "prod-img");
+    img.classList.add("card-img");
     img.innerHTML= `<img src='./Images/${stck.codeName}.jfif' alt="">`;
 
 
     const descp = document.createElement("div");
-    descp.classList.add("col3", "prod-descp");
-    descp.innerHTML=`<h2 id="prod-name">${stck.name}</h2>
+    descp.classList.add("card-descp");
+    descp.innerHTML=`<h2>${stck.name}</h2>
     <p class="price">$${stck.price}</p>
-    <p id="prod-descp">${stck.descp}</p>`;
+    <p class="descp">${stck.descp}</p>`;
 
 
     const readMore = document.createElement("div");
