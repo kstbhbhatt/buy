@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 1009px) {
     .cards{
-        padding: 5px 2.5px;
+        padding: 5px 2.5px 10px 2.5px;
     }
     .card{
         /* flex-basis: 1; */
