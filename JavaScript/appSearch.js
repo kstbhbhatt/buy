@@ -117,9 +117,10 @@ function search(callback){
     stock4.forEach(search)
     function search(stck){
         var input = document.getElementById("search");
+
         // console.log(input.value);
         
-        if(stck.name.match(input.value) ){
+        if(stck.name.toLowerCase().match(input.value.toLowerCase()) ){
             // console.log(stck.name);
             let searcher = 
             {
