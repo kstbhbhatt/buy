@@ -90,7 +90,8 @@ cart1.forEach(function(stck){
         localStorage.setItem("cart1", JSON.stringify(cart3));      
     })
 });
-
+var items = document.getElementById("buyy");
+items.innerHTML = `<button class="btn2 ">Proceed to Buy (${cart1.length} items)</button>`
 document.getElementById("buyy").addEventListener('mousedown', function(e){
     localStorage.setItem("buy1", JSON.stringify(cart1));
     // alert(cart1)
