@@ -55,7 +55,8 @@ document.getElementById(`${stck.sr}`).addEventListener('mousedown', function(e){
             price:  `${stck.price}`,
             codeName: `${stck.codeName}`,
             descp: `${stck.descp}`,
-            serialNumber: `${stck.serialNumber}`
+            serialNumber: `${stck.serialNumber}`,
+            buy: `${stck.buy}`
         }
     
     
@@ -98,7 +99,8 @@ stock3.forEach(function(stck){
                 price:  `${stck.price}`,
                 codeName: `${stck.codeName}`,
                 descp: `${stck.descp}`,
-                serialNumber: `${stck.serialNumber}`
+                serialNumber: `${stck.serialNumber}`,
+                buy: `${stck.buy}`
                 
             }
         

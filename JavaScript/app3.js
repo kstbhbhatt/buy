@@ -43,7 +43,7 @@ buy2.forEach(product)
 
     const readMore = document.createElement("div");
     readMore.classList.add("read-more");
-    readMore.innerHTML=`<button class="btn1"><a href="">Buy Now</a></button>`;
+    readMore.innerHTML=`<a href="${crt.buy}"><button class="btn1">Buy Now</button></a>`;
 
 
     node.appendChild(img);

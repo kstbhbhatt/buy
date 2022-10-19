@@ -25,7 +25,8 @@ function search(callback){
                 price:  `${stck.price}`,
                 codeName: `${stck.codeName}`,
                 descp: `${stck.descp}`,
-                serialNumber: `${stck.serialNumber}`
+                serialNumber: `${stck.serialNumber}`,
+                buy:  `${stck.buy}`
                 
             }
             searchss.push(searcher);

@@ -68,7 +68,8 @@ cart1.forEach(function(stck){
                 price:  `${stck.price}`,
                 codeName: `${stck.codeName}`,
                 descp: `${stck.descp}`,
-                serialNumber: `${stck.serialNumber}`
+                serialNumber: `${stck.serialNumber}`,
+                buy: `${stck.buy}`
                 
             }
         
