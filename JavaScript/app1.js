@@ -43,7 +43,6 @@ stock3.forEach(products)
 };
 }
 let cart2= new Array();
-
 stock3.forEach(function(stck){
 document.getElementById(`${stck.sr}`).addEventListener('mousedown', function(e){
     // alert(`${stck.sr}`);
