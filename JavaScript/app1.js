@@ -78,6 +78,8 @@ document.getElementById(`${stck.sr}`).addEventListener('mousedown', function(e){
 
     var c = document.getElementById("cartz");
     c.innerHTML = `<a href="cart.html">Cart <sup>(${cart3.length})</sup></a>`;
+    var hover = document.getElementById("hover");
+    hover.style.display = "block";
 
     
     

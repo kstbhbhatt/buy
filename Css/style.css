@@ -28,6 +28,12 @@ header{
     justify-content: space-between;
     width: 100%;
 }
+.hover{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
 nav ul{
     height: 100%;
     font-size: 20px;
@@ -165,6 +171,11 @@ nav ul li a:hover{
     background-color: #666;
     color: #eee;
 }
+.dark1{
+    background-color: #666;
+    color: #eee;
+}
+
 
 
 .btn1{
@@ -183,6 +194,10 @@ nav ul li a:hover{
     color: #eee;
     cursor: pointer;
     transition: .3s;
+}
+.dark1:hover{
+    background-color: #fff;
+    color: #333;
 }
 .btn2{
     box-sizing: border-box;
