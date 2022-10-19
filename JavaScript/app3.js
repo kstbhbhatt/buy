@@ -15,7 +15,8 @@ console.log(buy2);
  
 // console.log(removeDuplicateObjectFromArray(arr, 'name'))
 if(buy2.length == 0){
-    alert("Nothing to buy")
+    alert("Nothing to buy");
+    window.location = "home.html";
 }else{
 buy2.forEach(product)
 

@@ -13,7 +13,8 @@ function removeDuplicateObjectFromArray(array, key) {
 let cart2 =removeDuplicateObjectFromArray(cart1, 'sr');
 console.log(cart2);
 if(cart2.length == 0){
-    alert("Cart is Empty")
+    alert("Cart is Empty");
+    window.location = "home.html";
 }else{
 cart2.forEach(product)
 
