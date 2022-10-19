@@ -27,8 +27,7 @@ cart2.forEach(product)
     const img = document.createElement("div");
     img.classList.add("col1", "prod-img");
 
-    // const imgImg = document.createElement('img');
-    // imgImg.src = `./Images/${crt.codeName}.jfif`;
+
     img.innerHTML= `<img src='./Images/${crt.codeName}.jfif' alt="">`;
     // img.appendChild(imgImg);
 
@@ -52,7 +51,7 @@ cart2.forEach(product)
     document.getElementById("smartphone").appendChild(node); 
 
     var c = document.getElementById("cartz");
-    c.innerHTML = `<a href="cart.html">Cart <sup>(${cart2.length})</sup></a>`;
+    c.innerHTML = `<a href="cart.html">Cart <sup class="super">(${cart2.length})</sup></a>`;
     
 
 

@@ -34,6 +34,9 @@ header{
     bottom: 20px;
     right: 10px;
 }
+.super{
+    font-size: 12px;
+}
 nav ul{
     height: 100%;
     font-size: 20px;

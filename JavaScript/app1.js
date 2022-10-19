@@ -13,11 +13,8 @@ stock3.forEach(products)
 
     const img = document.createElement("div");
     img.classList.add("col1", "prod-img");
-
-    // const imgImg = document.createElement('img');
-    // imgImg.src = `./Images/${stck.codeName}.jfif`;
     img.innerHTML= `<img src='./Images/${stck.codeName}.jfif' alt="">`;
-    // img.appendChild(imgImg);
+
 
     const descp = document.createElement("div");
     descp.classList.add("col3", "prod-descp");
@@ -42,10 +39,13 @@ stock3.forEach(products)
 
 };
 }
+
+
+
 let cart2= new Array();
 stock3.forEach(function(stck){
 document.getElementById(`${stck.sr}`).addEventListener('mousedown', function(e){
-    // alert(`${stck.sr}`);
+    
     document.getElementById(`${stck.sr}`).innerHTML = 'Added to cart'
     
     let cartarr = 
@@ -77,7 +77,7 @@ document.getElementById(`${stck.sr}`).addEventListener('mousedown', function(e){
     localStorage.setItem("cart1", JSON.stringify(cart3));
 
     var c = document.getElementById("cartz");
-    c.innerHTML = `<a href="cart.html">Cart <sup>(${cart3.length})</sup></a>`;
+    c.innerHTML = `<a href="cart.html">Cart <sup class="super">(${cart3.length})</sup></a>`;
     var hover = document.getElementById("hover");
     hover.style.display = "block";
 
