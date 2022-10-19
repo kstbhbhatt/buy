@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-padding-top: 70px;
+}
+body{
+    color: #333;
+    font-family: 'Open Sans', sans-serif;;
+}
+a{  color: #333;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+#prod-descp{
+    text-align: justify;
+}
+header{
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul{
+    height: 100%;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    margin: 10px 10px;
+}
+nav ul li a{
+    color: #eee;
+}
+.active{
+    border-bottom: 1px solid #eee;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #eee;
+}
+.search{
+    width: 350px;
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+.search input{
+    padding: 0 0 0 10px;
+    width: 80%;
+    display: block;
+    height: 30px;
+    /* padding: 0%; */
+    border-radius: 15px;
+    border:none;
+    color: #333;
+}
+.search input:focus{
+    outline: none;
+    border: none;
+}
+.search>button{
+    border: 0;
+    color: #eee;
+    background-color: #333;
+    padding-top: 2px;
+    font-size: 25px;
+    align-items: center;
+    display: block;
+    height: 30px;
+}
+.search > button:hover{
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px auto 0;
+    padding-top: 10px;
+    background-color: #eee;
+    height: auto;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.cards{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    /* flex-basis: 1; */
+    box-sizing: border-box;
+    width: 24%;
+    background-color: #fff;
+    margin: 10px 5px 10px 5px;
+    border-radius: 3px;
+    padding: 30px;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(134, 134, 134, 0.566);
+    transition: .5s;
+}
+
+/* Cards */
+
+.card-img{
+    width: 100%;
+    height: 340px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* padding: 30px; */
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-descp{
+    margin-top: 10px;
+}
+.card-descp h2{
+   font-weight: 500;
+}
+.card-descp .price{
+    margin-top: 5px;
+    color: #666;
+    font-size: 14px;
+}
+.card-descp .descp{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666 ;
+}
+.read-more{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: right;
+}
+.light{
+    background-color: #fff;
+    color: #333;
+}
+.dark{
+    background-color: #666;
+    color: #eee;
+}
+
+
+.btn1{
+    box-sizing: border-box;
+    height: 40px;
+    margin:10px 5px 0;
+    padding: 0 5px;
+    border-radius: 35px;
+    border: 0;
+    min-width: 120px;
+    /* width: auto; */
+    max-width: 300px;
+}
+.btn1:hover{
+    background-color: #666;
+    color: #eee;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn2{
+    box-sizing: border-box;
+    height: 40px;
+    margin:10px 5px 0;
+    padding: 0 5px;
+    border-radius: 35px;
+    border: 0;
+    min-width: 120px;
+    /* width: auto; */
+    max-width: 300px;
+}
+.btn2:hover{
+    background-color: #aaa;
+    /* color: #eee; */
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+#smartphone{
+    
+    margin: auto;
+    padding: 10px;
+    background-color: #ccc;
+    
+    padding: 20px;
+    
+    border: 0;
+    
+}
+
+
+.product{
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.product:hover{
+    box-shadow: 5px 5px 10px rgba(88, 88, 88, 0.566), -5px -5px 10px rgba(88, 88, 88, 0.566);
+    transition: .5s;
+}
+.col1{
+    width: 32%;
+    padding: 20px;
+}
+.col3{
+    width: 66%;
+    padding: 20px;
+}
+
+
+
+footer{
+    box-sizing: border-box;
+    background-color: #333;
+    color: #eee;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+
+}
