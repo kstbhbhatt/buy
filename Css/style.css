@@ -6,6 +6,7 @@ html{
     scroll-padding-top: 70px;
 }
 body{
+    
     color: #333;
     font-family: 'Open Sans', sans-serif;;
 }
@@ -17,6 +18,9 @@ img{
 }
 #prod-descp{
     text-align: justify;
+}
+p{  text-align: justify;
+    /* font-size: 14px; */
 }
 header{
     position: sticky;
@@ -233,11 +237,33 @@ nav ul li a:hover{
     border: 0;
     
 }
+.specs{
+    color: #666;
+    font-size: 12px;
+}
+.hide{
+    margin-top: 15px;
+    text-align: right;
+}
+.specs:hover{
+    cursor: pointer;
 
-
-.product{
+}
+.column{
+    box-sizing: border-box;
     margin: 20px auto;
     width: 80%;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    box-sizing: border-box;
+    /* margin: 20px auto; */
+    width: 100%;
     padding: 20px;
     border: 0;
     border-radius: 5px;
@@ -267,4 +293,51 @@ footer{
     padding: 10px;
     height: 40px;
 
+}
+#table1{
+    display: none;
+    transition: .5s;
+}
+#table2{
+    display: none;
+}
+#table3{
+    display: none;
+}
+#table4{
+    display: none;
+}
+#table5{
+    display: none;
+}
+#table6{
+    display: none;
+}
+#table7{
+    display: none;
+}
+#table8{
+    display: none;
+}
+table{
+   
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #333;
+}
+th{
+    font-weight: 500;
+    color: #eee;
+
+}
+th,td{
+    border-bottom: 1px solid #444;
+    padding: 10px;
+    font-size: 14px;
+}
+tr:last-child > td{
+    border: 0;
+}
+tr:last-child > th{
+    border: 0;
 }

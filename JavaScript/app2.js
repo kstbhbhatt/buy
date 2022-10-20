@@ -35,7 +35,7 @@ cart2.forEach(product)
     const descp = document.createElement("div");
     descp.classList.add("col3", "prod-descp");
     descp.innerHTML=`<h2 id="prod-name">${crt.name}</h2>
-    <p class="price">$${crt.price}</p>
+    <p class="price">₹${crt.price}</p>
     <p id="prod-descp">${crt.descp}</p>`;
 
 

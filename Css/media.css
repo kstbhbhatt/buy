@@ -104,6 +104,9 @@
         min-width: 230px;
        
     } 
+    .column{
+        width: 100%;
+    }
     /* .col3{
         width: 50%;
       
